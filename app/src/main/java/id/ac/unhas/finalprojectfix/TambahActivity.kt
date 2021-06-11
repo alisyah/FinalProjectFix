@@ -32,6 +32,7 @@ class TambahActivity : AppCompatActivity(), View.OnClickListener {
         cbselai = findViewById(R.id.cb_selai)
 
         btnsimpan = findViewById(R.id.btn_simpan)
+
         btnsimpan.setOnClickListener(this)
     }
 
@@ -87,7 +88,7 @@ class TambahActivity : AppCompatActivity(), View.OnClickListener {
 
         val pesanId = ref.push().key
 
-        val dnt = pesanId?.let { Donat(it,nama,alamat,biasa+mini,kacang+" "+meses+" "+selai) }
+        val dnt =  Donat( pesanId, nama, alamat,biasa+mini,kacang+" "+meses+" "+selai)
 
         if (pesanId != null) {
             ref.child(pesanId).setValue(dnt).addOnCompleteListener{
@@ -106,10 +107,6 @@ class TambahActivity : AppCompatActivity(), View.OnClickListener {
         cbmeses.isChecked = false
         cbselai.isChecked = false
     }
-}
-
-private fun Button.setOnClickListener(tambahActivity: TambahActivity) {
-
 }
 
 
