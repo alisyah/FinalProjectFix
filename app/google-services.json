@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "660254781329",
+    "project_id": "finalprojectfix",
+    "storage_bucket": "finalprojectfix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660254781329:android:443167ac06d7377452b430",
+        "android_client_info": {
+          "package_name": "id.ac.unhas.finalprojectfix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660254781329-34nepj32phin1upnkt4nhd0qbe8l5s12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI3rw9Bb2dAvwZONz3s4DFSW7Z4qPH41Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660254781329-34nepj32phin1upnkt4nhd0qbe8l5s12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
